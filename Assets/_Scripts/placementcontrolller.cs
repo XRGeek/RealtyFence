@@ -21,7 +21,7 @@ public class placementcontrolller : MonoBehaviour
 
     public Toggle T_movemode;
     public Toggle T_rotatemode;
-
+  
 
     public void Setmovemode(bool mode) 
     {
