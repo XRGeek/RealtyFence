@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/_Scenes/SplashAndLanguage.unity
+    guid: bb2eb83d564714b4b9eeccd542cb8e73
+  - enabled: 0
+    path: Assets/_Scenes/MainScene.unity
+    guid: ec3c3c30a3489274e80cb89953f994a6
+  - enabled: 1
+    path: Assets/_Scenes/Testing.unity
+    guid: c86c2ae351a3443c593557d83907f3e1
+  - enabled: 0
+    path: Assets/_Scenes/test2.unity
+    guid: 4c8810c64f1c1d34c94f63ad5fdd9300
+  - enabled: 1
+    path: Assets/_Scenes/FoundationARHori.unity
+    guid: d7eea57edbdf14319b773d46696eb1b2
+  - enabled: 0
+    path: Assets/_Scenes/FoundationARVert.unity
+    guid: 1ed143effd12e484d92e0eb13cd0bc87
+  - enabled: 0
+    path: Assets/_Scenes/Testing 1.unity
+    guid: 87dd1cb46a389418aad6bb2627fa248b
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8acb62b4477dc4e4b997adf42387c30b,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: d6c0a7990a85e2341bf583424905d7c2,
+      type: 2}
+    com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 2d5fb8e61571b4e3897f221189089fd6,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1a3727a08ee404d91b6ca391171b412d,
+      type: 2}
