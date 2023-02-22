@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "597497441599",
+    "project_id": "ios-installation-tracking",
+    "storage_bucket": "ios-installation-tracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597497441599:android:b250f5b0b597eeacdbf78a",
+        "android_client_info": {
+          "package_name": "com.Kaminlicht.AR"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597497441599-qvj0qaf9iaot9qovifj63ognn3vmo1en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMdaeJnZpNF_XGQBzpO1F0-QuSuA0shtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597497441599-qvj0qaf9iaot9qovifj63ognn3vmo1en.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "597497441599-rbq812qtn8dk2gmm2g49catiivf6nhl4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Kaminlicht.AR",
+                "app_store_id": "1535379117"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
