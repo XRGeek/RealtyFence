@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/_Scenes/FoundationARVert.unity
     guid: 1ed143effd12e484d92e0eb13cd0bc87
   - enabled: 0
-    path: Assets/_Scenes/Testing 1.unity
+    path: Assets/_Scenes/Scroll.unity
     guid: 87dd1cb46a389418aad6bb2627fa248b
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8acb62b4477dc4e4b997adf42387c30b,

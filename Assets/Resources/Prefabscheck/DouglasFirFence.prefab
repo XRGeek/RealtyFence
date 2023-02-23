@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6282447261713646538}
   - component: {fileID: 5928202907666032286}
   - component: {fileID: 5914504466726237242}
+  - component: {fileID: -7239475031540483581}
   m_Layer: 0
   m_Name: DouglasFirFence
   m_TagString: Untagged
@@ -67,6 +68,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsSelected: 0
   IsLocked: 0
+--- !u!114 &-7239475031540483581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698533074304792627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
+  Relative: 0
+  Sensitivity: 1
+  Dampening: -1
+  remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1001 &782633548469832325
 PrefabInstance:
   m_ObjectHideFlags: 0

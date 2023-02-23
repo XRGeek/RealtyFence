@@ -12,22 +12,20 @@ using Lean.Touch;
 public class placementcontrolller : MonoBehaviour
 {
 
-     public GameObject gameobjectToCreate;
+    public GameObject gameobjectToCreate;
     public GameObject HUD;
    
     public bool movemode = false;
     public bool rotatemode = true;
-
+    public bool Pinchmode = false;
 
     public Toggle T_movemode;
     public Toggle T_rotatemode;
-  
+    public Toggle T_Pinchmode;
 
     public void Setmovemode(bool mode) 
     {
         movemode = mode;
-
-
     }
 
     public void SetRotatemode(bool mode)
@@ -35,6 +33,12 @@ public class placementcontrolller : MonoBehaviour
         rotatemode = mode;
     }
 
+
+    public void SetPinchmode(bool mode)
+    {
+        Pinchmode = mode;
+       
+    }
 
     public GameObject Placedprefab
     {
@@ -81,8 +85,9 @@ public class placementcontrolller : MonoBehaviour
             return;
             
         //enable and disable rotate mode based on Toggle value      
-      if(instantiated)
+        if(instantiated)
         Placedprefab.GetComponent<LeanTwistRotateAxis>().enabled = rotatemode;
+        Placedprefab.GetComponent<LeanPinchScale>().enabled = Pinchmode;
 
 
 
@@ -106,11 +111,10 @@ public class placementcontrolller : MonoBehaviour
                     point.gameObject.SetActive(false);
                 }
             }
-            else if (instantiated &&  movemode && !rotatemode &&  !IsPointerOverUIObject()) 
+            else if (instantiated &&  movemode && !rotatemode  &&  !IsPointerOverUIObject()) 
             {
-
-             //   Placedprefab.transform.rotation = hitpose.rotation;
-                Placedprefab.transform.position = hitpose.position;
+                  Placedprefab.transform.position = hitpose.position;
+                  Debug.Log("hit to replace");
             }
           
         }

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5150316256211862180}
   - component: {fileID: 4761166848700180464}
   - component: {fileID: 3494357180108839232}
+  - component: {fileID: 6326657611834238193}
   m_Layer: 0
   m_Name: Helios
   m_TagString: Untagged
@@ -67,6 +68,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsSelected: 0
   IsLocked: 0
+--- !u!114 &6326657611834238193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866624423892662621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Use:
+    Filter: 0
+    IgnoreStartedOverGui: 1
+    RequiredFingerCount: 0
+    RequiredMouseButtons: 0
+    RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
+  Relative: 0
+  Sensitivity: 1
+  Dampening: -1
+  remainingScale: {x: 0, y: 0, z: 0}
 --- !u!1001 &5059398565910820007
 PrefabInstance:
   m_ObjectHideFlags: 0
