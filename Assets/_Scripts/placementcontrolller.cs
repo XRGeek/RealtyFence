@@ -18,10 +18,12 @@ public class placementcontrolller : MonoBehaviour
     public bool movemode = false;
     public bool rotatemode = true;
     public bool Pinchmode = false;
+    public bool Lockmode = false;
 
     public Toggle T_movemode;
     public Toggle T_rotatemode;
     public Toggle T_Pinchmode;
+    public Toggle T_LockMode;
 
     public void Setmovemode(bool mode) 
     {
@@ -38,6 +40,13 @@ public class placementcontrolller : MonoBehaviour
     {
         Pinchmode = mode;
        
+    }
+
+    public void SetLockMode(bool mode)
+    {
+        Lockmode = mode;
+
+
     }
 
     public GameObject Placedprefab
@@ -88,6 +97,7 @@ public class placementcontrolller : MonoBehaviour
         if(instantiated)
         Placedprefab.GetComponent<LeanTwistRotateAxis>().enabled = rotatemode;
         Placedprefab.GetComponent<LeanPinchScale>().enabled = Pinchmode;
+        Placedprefab.GetComponent<PlacementObject>().Locked = Lockmode;
 
 
 
