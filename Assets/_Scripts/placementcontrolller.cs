@@ -25,6 +25,10 @@ public class placementcontrolller : MonoBehaviour
     public Toggle T_Pinchmode;
     public Toggle T_LockMode;
 
+
+    List<GameObject> storePrefabs = new List<GameObject>();
+
+
     public void Setmovemode(bool mode) 
     {
         movemode = mode;
@@ -62,20 +66,61 @@ public class placementcontrolller : MonoBehaviour
     }
 
     ARRaycastManager arRaycastManager;
-
+    GameObject parentObj;
 
 
     // Start is called before the first frame update
     void Start()
     {
         arRaycastManager = gameObject.GetComponent<ARRaycastManager>();
-
-        name = PlayerPrefs.GetString("ObjectName", null);
+        name = PlayerPrefs.GetString("ObjectName", "");
         {
             ChangePrefabSelection(name);
         }
+
+        PlaceObject();
     }
 
+    public void PlaceObject()
+    {
+        GameObject parentObj = gameobjectToCreate;
+
+        for (int i = 0; i < parentObj.transform.childCount; i++)
+        {
+            GameObject childObj = parentObj.transform.GetChild(i).gameObject;
+
+            storePrefabs.Add(childObj);
+
+            if (childObj.name == name)
+            {
+                Debug.Log("Child" + name);
+                childObj.SetActive(true);
+            }
+            else
+            {
+                childObj.SetActive(false);
+            }
+        }
+    }
+
+
+    public void SelectModel(GameObject currentModel)
+    {
+        for (int i = 0; i < Placedprefab.transform.childCount; i++)
+        {
+            GameObject childObj = Placedprefab.transform.GetChild(i).gameObject;
+
+            if (childObj.name == currentModel.name)
+            {
+                Debug.Log("Child" + name);
+                childObj.SetActive(true);
+            }
+            else
+            {
+                childObj.SetActive(false);
+            }
+        }
+    }
     bool TryGetTouchPosition(out Vector2 touchposition) 
     {
         if (Input.touchCount > 0)
@@ -90,6 +135,15 @@ public class placementcontrolller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+#if UNITY_EDITOR
+        if (!instantiated)
+        {
+            Placedprefab = Instantiate(Placedprefab);
+            instantiated = true;
+        }
+       
+#endif
+
         if (!TryGetTouchPosition(out Vector2 touchposition)) 
             return;
             
@@ -145,7 +199,7 @@ public class placementcontrolller : MonoBehaviour
     }
     public void ChangePrefabSelection(string name)
     {
-        GameObject loadedGameObject = Resources.Load<GameObject>($"Prefabscheck/{name}");
+        GameObject loadedGameObject = Resources.Load<GameObject>($"Prefabscheck/{"SpawnItems"}");
         if (loadedGameObject != null)
         {
             gameobjectToCreate = loadedGameObject;
