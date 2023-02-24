@@ -1186,16 +1186,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 422a8c478f9790444aa7ef4b52809bdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameobjectToCreate: {fileID: 7047200200793648343, guid: 4c2060aeff0be4deeafcb2ee33028cfe,
+  GameobjectToCreate: {fileID: 7047200200793648343, guid: 4c2060aeff0be4deeafcb2ee33028cfe,
     type: 3}
   HUD: {fileID: 1341677550}
-  movemode: 0
-  rotatemode: 1
-  Pinchmode: 0
-  Lockmode: 0
-  T_movemode: {fileID: 105422964}
-  T_rotatemode: {fileID: 1128621371}
-  T_Pinchmode: {fileID: 1110155222}
+  MoveMode: 0
+  RotateMode: 1
+  PinchMode: 0
+  LockMode: 0
+  T_MoveMode: {fileID: 105422964}
+  T_RotateMode: {fileID: 1128621371}
+  T_PinchMode: {fileID: 1110155222}
   T_LockMode: {fileID: 954746361}
 --- !u!1 &1341677550 stripped
 GameObject:

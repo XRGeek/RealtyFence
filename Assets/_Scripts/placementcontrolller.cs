@@ -9,43 +9,43 @@ using Lean.Touch;
 [RequireComponent(typeof(ARRaycastManager))]
 
 
-public class placementcontrolller : MonoBehaviour
+public class PlacementControlller : MonoBehaviour
 {
 
-    public GameObject gameobjectToCreate;
+    public GameObject GameobjectToCreate;
     public GameObject HUD;
    
-    public bool movemode = false;
-    public bool rotatemode = true;
-    public bool Pinchmode = false;
-    public bool Lockmode = false;
+    public bool MoveMode = false;
+    public bool RotateMode = true;
+    public bool PinchMode = false;
+    public bool LockMode = false;
 
-    public Toggle T_movemode;
-    public Toggle T_rotatemode;
-    public Toggle T_Pinchmode;
+    public Toggle T_MoveMode;
+    public Toggle T_RotateMode;
+    public Toggle T_PinchMode;
     public Toggle T_LockMode;
 
 
     public void Setmovemode(bool mode) 
     {
-        movemode = mode;
+        MoveMode = mode;
     }
 
     public void SetRotatemode(bool mode)
     {
-        rotatemode = mode;
+        RotateMode = mode;
     }
 
 
     public void SetPinchmode(bool mode)
     {
-        Pinchmode = mode;
+        PinchMode = mode;
        
     }
 
     public void SetLockMode(bool mode)
     {
-        Lockmode = mode;
+        LockMode = mode;
 
 
     }
@@ -54,11 +54,11 @@ public class placementcontrolller : MonoBehaviour
     {
         get
         {
-            return gameobjectToCreate;
+            return GameobjectToCreate;
         }
         set 
         {
-            gameobjectToCreate = value;
+            GameobjectToCreate = value;
         }
     }
 
@@ -78,7 +78,7 @@ public class placementcontrolller : MonoBehaviour
 
     public void PlaceObject()
     {
-        GameObject parentObj = gameobjectToCreate;
+        GameObject parentObj = GameobjectToCreate;
 
         for (int i = 0; i < parentObj.transform.childCount; i++)
         {
@@ -140,9 +140,9 @@ public class placementcontrolller : MonoBehaviour
             
         //enable and disable rotate mode based on Toggle value      
         if(instantiated)
-        Placedprefab.GetComponent<LeanTwistRotateAxis>().enabled = rotatemode;
-        Placedprefab.GetComponent<LeanPinchScale>().enabled = Pinchmode;
-        Placedprefab.GetComponent<PlacementObject>().Locked = Lockmode;
+        Placedprefab.GetComponent<LeanTwistRotateAxis>().enabled = RotateMode;
+        Placedprefab.GetComponent<LeanPinchScale>().enabled = PinchMode;
+        Placedprefab.GetComponent<PlacementObject>().Locked = LockMode;
 
 
 
@@ -166,7 +166,7 @@ public class placementcontrolller : MonoBehaviour
                     point.gameObject.SetActive(false);
                 }
             }
-            else if (instantiated &&  movemode && !rotatemode  &&  !IsPointerOverUIObject()) 
+            else if (instantiated && MoveMode && !RotateMode &&  !IsPointerOverUIObject()) 
             {
                   Placedprefab.transform.position = hitpose.position;
                   Debug.Log("hit to replace");
@@ -193,7 +193,7 @@ public class placementcontrolller : MonoBehaviour
         GameObject loadedGameObject = Resources.Load<GameObject>($"Prefabscheck/{"SpawnItems"}");
         if (loadedGameObject != null)
         {
-            gameobjectToCreate = loadedGameObject;
+            GameobjectToCreate = loadedGameObject;
             Debug.Log($"Game object with name {name} was loaded");
         }
         else
