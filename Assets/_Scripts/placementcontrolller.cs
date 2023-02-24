@@ -26,9 +26,6 @@ public class placementcontrolller : MonoBehaviour
     public Toggle T_LockMode;
 
 
-    List<GameObject> storePrefabs = new List<GameObject>();
-
-
     public void Setmovemode(bool mode) 
     {
         movemode = mode;
@@ -66,8 +63,6 @@ public class placementcontrolller : MonoBehaviour
     }
 
     ARRaycastManager arRaycastManager;
-    GameObject parentObj;
-
 
     // Start is called before the first frame update
     void Start()
@@ -89,11 +84,8 @@ public class placementcontrolller : MonoBehaviour
         {
             GameObject childObj = parentObj.transform.GetChild(i).gameObject;
 
-            storePrefabs.Add(childObj);
-
             if (childObj.name == name)
             {
-                Debug.Log("Child" + name);
                 childObj.SetActive(true);
             }
             else
@@ -112,7 +104,6 @@ public class placementcontrolller : MonoBehaviour
 
             if (childObj.name == currentModel.name)
             {
-                Debug.Log("Child" + name);
                 childObj.SetActive(true);
             }
             else
