@@ -25,6 +25,8 @@ public class PlacementControlller : MonoBehaviour
     public Toggle T_PinchMode;
     public Toggle T_LockMode;
 
+    public GameObject ToggleBtn;
+    public GameObject ScrollViewHorizontal;
 
     public void Setmovemode(bool mode) 
     {
@@ -153,6 +155,8 @@ public class PlacementControlller : MonoBehaviour
             if (!instantiated && !IsPointerOverUIObject())
             {
                 Placedprefab = Instantiate(Placedprefab, hitpose.position, hitpose.rotation);
+                ScrollViewHorizontal.SetActive(true);
+                ToggleBtn.SetActive(true);
                 instantiated = true;
                 HUD.SetActive(false);
                 gameObject.GetComponent<ARPlaneManager>().enabled = false;
