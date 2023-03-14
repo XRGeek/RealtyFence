@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,7 +14,7 @@ public class PlacementControlller : MonoBehaviour
 
     public GameObject GameobjectToCreate;
     public GameObject HUD;
-   
+
     public bool MoveMode = false;
     public bool RotateMode = true;
     public bool PinchMode = false;
@@ -28,7 +28,7 @@ public class PlacementControlller : MonoBehaviour
     public GameObject ToggleBtn;
     public GameObject ScrollViewHorizontal;
 
-    public void Setmovemode(bool mode) 
+    public void Setmovemode(bool mode)
     {
         MoveMode = mode;
     }
@@ -42,7 +42,7 @@ public class PlacementControlller : MonoBehaviour
     public void SetPinchmode(bool mode)
     {
         PinchMode = mode;
-       
+
     }
 
     public void SetLockMode(bool mode)
@@ -58,7 +58,7 @@ public class PlacementControlller : MonoBehaviour
         {
             return GameobjectToCreate;
         }
-        set 
+        set
         {
             GameobjectToCreate = value;
         }
@@ -114,10 +114,11 @@ public class PlacementControlller : MonoBehaviour
             }
         }
     }
-    bool TryGetTouchPosition(out Vector2 touchposition) 
+    bool TryGetTouchPosition(out Vector2 touchposition)
     {
         if (Input.touchCount > 0)
-        { touchposition = Input.GetTouch(0).position;
+        {
+            touchposition = Input.GetTouch(0).position;
             return true;
         }
         {
@@ -134,22 +135,22 @@ public class PlacementControlller : MonoBehaviour
             Placedprefab = Instantiate(Placedprefab);
             instantiated = true;
         }
-       
+
 #endif
 
-        if (!TryGetTouchPosition(out Vector2 touchposition)) 
+        if (!TryGetTouchPosition(out Vector2 touchposition))
             return;
-            
+
         //enable and disable rotate mode based on Toggle value      
-        if(instantiated)
-        Placedprefab.GetComponent<LeanTwistRotateAxis>().enabled = RotateMode;
+        if (instantiated)
+            Placedprefab.GetComponent<LeanTwistRotateAxis>().enabled = RotateMode;
         Placedprefab.GetComponent<LeanPinchScale>().enabled = PinchMode;
         Placedprefab.GetComponent<PlacementObject>().Locked = LockMode;
 
 
 
 
-        if (arRaycastManager.Raycast(touchposition, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon)) 
+        if (arRaycastManager.Raycast(touchposition, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
         {
             var hitpose = hits[0].pose;
             if (!instantiated && !IsPointerOverUIObject())
@@ -170,12 +171,12 @@ public class PlacementControlller : MonoBehaviour
                     point.gameObject.SetActive(false);
                 }
             }
-            else if (instantiated && MoveMode && !RotateMode &&  !IsPointerOverUIObject()) 
+            else if (instantiated && MoveMode && !RotateMode && !IsPointerOverUIObject())
             {
-                  Placedprefab.transform.position = hitpose.position;
-                  Debug.Log("hit to replace");
+                Placedprefab.transform.position = hitpose.position;
+                Debug.Log("hit to replace");
             }
-          
+
         }
     }
     bool instantiated = false;

@@ -6,25 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/_Scenes/SplashAndLanguage.unity
+    path: Assets/_Scenes/ExtraScene/SplashAndLanguage.unity
     guid: bb2eb83d564714b4b9eeccd542cb8e73
   - enabled: 0
-    path: Assets/_Scenes/MainScene.unity
+    path: Assets/_Scenes/ExtraScene/OldMainScene.unity
     guid: ec3c3c30a3489274e80cb89953f994a6
   - enabled: 1
     path: Assets/_Scenes/MainMenu.unity
     guid: c86c2ae351a3443c593557d83907f3e1
   - enabled: 0
-    path: Assets/_Scenes/test2.unity
+    path: Assets/_Scenes/ExtraScene/test2.unity
     guid: 4c8810c64f1c1d34c94f63ad5fdd9300
   - enabled: 1
     path: Assets/_Scenes/FoundationARHori.unity
     guid: d7eea57edbdf14319b773d46696eb1b2
   - enabled: 0
-    path: Assets/_Scenes/FoundationARVert.unity
+    path: Assets/_Scenes/ExtraScene/FoundationARVert.unity
     guid: 1ed143effd12e484d92e0eb13cd0bc87
   - enabled: 0
-    path: Assets/_Scenes/Scroll.unity
+    path: Assets/_Scenes/ExtraScene/Scroll.unity
     guid: 87dd1cb46a389418aad6bb2627fa248b
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8acb62b4477dc4e4b997adf42387c30b,
