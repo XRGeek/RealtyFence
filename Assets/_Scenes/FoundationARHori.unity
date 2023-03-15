@@ -650,19 +650,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: whitePVC Gate
+  m_Text: White PVC Gate
 --- !u!222 &35811503
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -960,19 +960,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WhitePVC
+  m_Text: White PVC
 --- !u!222 &67707596
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -995,7 +995,7 @@ GameObject:
   - component: {fileID: 83055014}
   - component: {fileID: 83055013}
   m_Layer: 0
-  m_Name: DouglasFirFEnce_w/Lattice
+  m_Name: DouglasFirFence_wLattice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1521,19 +1521,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cendar Fence_w/Lattice
+  m_Text: Cedar w/Lat.
 --- !u!222 &98951228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1575,10 +1575,10 @@ RectTransform:
   m_Father: {fileID: 1456429701}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 160}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 142.84015, y: -244.24696}
+  m_SizeDelta: {x: 285.6803, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &105422964
 MonoBehaviour:
@@ -2085,19 +2085,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Black Aluminium 4x6
+  m_Text: Blk. Alum. 6x4
 --- !u!222 &205415582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2164,19 +2164,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Douglas FirFence
+  m_Text: Doug Fir
 --- !u!222 &210983375
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2538,12 +2538,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -4198,19 +4198,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Douglas FirFence
+  m_Text: Doug Fir
 --- !u!222 &493121660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4609,19 +4609,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Douglas FirFEnce_w/Lattice
+  m_Text: Doug Fir w/Lat.
 --- !u!222 &530468262
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6228,12 +6228,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -6685,12 +6685,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -6839,19 +6839,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Black Aluminium 4x6
+  m_Text: Blk. Alum. 6x4
 --- !u!222 &873699167
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7368,19 +7368,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GreyPVC
+  m_Text: Grey PVC
 --- !u!222 &1003525386
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7522,12 +7522,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -8660,10 +8660,10 @@ RectTransform:
   m_Father: {fileID: 1456429701}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 160}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 142.84015, y: -408.49393}
+  m_SizeDelta: {x: 285.6803, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1128621371
 MonoBehaviour:
@@ -9165,19 +9165,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TanPVC Gate
+  m_Text: Tan PVC Gate
 --- !u!222 &1157573298
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9377,19 +9377,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cender Fence
+  m_Text: Cedar Fence
 --- !u!222 &1183648172
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9456,19 +9456,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: GreyPVC
+  m_Text: Grey PVC
 --- !u!222 &1193177121
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9771,19 +9771,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Black Aluminium 6x6
+  m_Text: Blk. Alum. 6x6
 --- !u!222 &1216396058
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10071,19 +10071,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WhitePVC
+  m_Text: White PVC
 --- !u!222 &1237101083
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10446,19 +10446,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cendar Fence_w/Lattice
+  m_Text: Cedar w/Lat.
 --- !u!222 &1282516746
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10695,19 +10695,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Black Aluminium 6x6
+  m_Text: Blk. Alum. 6x6
 --- !u!222 &1304694051
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11111,12 +11111,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -11453,7 +11453,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1456429701
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11477,7 +11477,7 @@ RectTransform:
   m_AnchorMin: {x: 0.8356566, y: 0.40600002}
   m_AnchorMax: {x: 1, y: 0.83400005}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0.20210266, y: -7}
+  m_SizeDelta: {x: 0, y: -7}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1456429702
 MonoBehaviour:
@@ -11769,12 +11769,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -12492,12 +12492,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -12872,7 +12872,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 310e24903f2a04f90a6a6714a83622c5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 961be58c8e3094e1084b58a9642dca68, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -12948,19 +12948,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Douglas FirFEnce_w/Lattice
+  m_Text: Doug Fir w/Lat.
 --- !u!222 &1609629798
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13960,7 +13960,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 961be58c8e3094e1084b58a9642dca68, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3636c242e4a06448abb5dcede06f3c31, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -14112,19 +14112,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: White Tan PVC Gate_
+  m_Text: White+Tan Gate
 --- !u!222 &1767726423
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14266,19 +14266,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: whitePVC Gate
+  m_Text: White PVC Gate
 --- !u!222 &1807548221
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14345,19 +14345,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cender Fence
+  m_Text: Cedar Fence
 --- !u!222 &1808451266
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15367,19 +15367,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TanPVC Gate
+  m_Text: Tan PVC Gate
 --- !u!222 &1985829384
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15477,7 +15477,7 @@ GameObject:
   - component: {fileID: 2001721655}
   - component: {fileID: 2001721654}
   m_Layer: 0
-  m_Name: CendarFence_w/Lattice
+  m_Name: CendarFence_wLattice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15828,19 +15828,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: White Tan PVC Gate_
+  m_Text: White+Tan Gate
 --- !u!222 &2003654024
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15982,12 +15982,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfeac78e6d1d2423494d370df312cfae, type: 3}
     m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 55
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -18323,10 +18323,10 @@ RectTransform:
   m_Father: {fileID: 1456429701}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 160}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 142.84015, y: -572.7409}
+  m_SizeDelta: {x: 285.6803, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &4971000650790359942
 RectTransform:
@@ -18515,10 +18515,10 @@ RectTransform:
   m_Father: {fileID: 1456429701}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 160}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 142.84015, y: -901.2348}
+  m_SizeDelta: {x: 285.6803, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4971000650805190961
 MonoBehaviour:
@@ -21759,10 +21759,10 @@ RectTransform:
   m_Father: {fileID: 1456429701}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 160}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 142.84015, y: -736.98785}
+  m_SizeDelta: {x: 285.6803, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4971000652038376085
 MonoBehaviour:
@@ -21874,10 +21874,10 @@ RectTransform:
   m_Father: {fileID: 1456429701}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 160}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 142.84015, y: -80}
+  m_SizeDelta: {x: 285.6803, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4971000652071816590
 MonoBehaviour:
@@ -23159,10 +23159,70 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5545197515143342026, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197515872704436, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: GermanText
+      value: Tap to Place
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197515872704436, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: EnglishText
+      value: Tap to Place
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197515872704438, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: m_text
+      value: Tap to Place
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197516515969988, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5545197516549517881, guid: 3fa92240e065c074591e7f0b5fe41b36,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197516672223681, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: m_text
+      value: Move IPad to Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197516672223682, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197516672223682, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197516672223682, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197516672223682, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197516672223687, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: GermanText
+      value: Move IPad to Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545197516672223687, guid: 3fa92240e065c074591e7f0b5fe41b36,
+        type: 3}
+      propertyPath: EnglishText
+      value: Move IPad to Start
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fa92240e065c074591e7f0b5fe41b36, type: 3}
