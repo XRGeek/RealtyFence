@@ -6,10 +6,23 @@ using UnityEngine.UI;
 public class BtnSizeManager : MonoBehaviour
 {
     public GameObject _parentObject;
-
+    string check;
     private void Start()
     {
-        
+        check = PlayerPrefs.GetString("ObjectName", "");
+        if (gameObject.name == check)
+        {
+            gameObject.transform.GetChild(2).gameObject.SetActive(true);
+            Debug.Log("here");
+        }
+        else
+        {
+            gameObject.transform.GetChild(2).gameObject.SetActive(false);
+            Debug.Log("there");
+        }
+
+
+
     }
 
     public void OnMouseClick()
