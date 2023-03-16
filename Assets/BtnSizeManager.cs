@@ -12,12 +12,12 @@ public class BtnSizeManager : MonoBehaviour
         check = PlayerPrefs.GetString("ObjectName", "");
         if (gameObject.name == check)
         {
-            gameObject.transform.GetChild(2).gameObject.SetActive(true);
+            gameObject.transform.GetChild(3).gameObject.SetActive(true);
             Debug.Log("here");
         }
         else
         {
-            gameObject.transform.GetChild(2).gameObject.SetActive(false);
+            gameObject.transform.GetChild(3).gameObject.SetActive(false);
             Debug.Log("there");
         }
 
@@ -35,12 +35,12 @@ public class BtnSizeManager : MonoBehaviour
 
             if (childObj.name == name)
             {
-                childObj.transform.GetChild(2).gameObject.SetActive(true);
+                childObj.transform.GetChild(3).gameObject.SetActive(true);
                 //childObj.GetComponent<Image>().sprite = biggerimg;
             }
             else
             {
-                childObj.transform.GetChild(2).gameObject.SetActive(false);
+                childObj.transform.GetChild(3).gameObject.SetActive(false);
                 //childObj.GetComponent<Image>().sprite = smallerimg;
             }
         }
