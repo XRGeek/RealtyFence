@@ -6,16 +6,16 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using Lean.Touch;
+
 [RequireComponent(typeof(ARRaycastManager))]
 
 
-public class PlacementControlller : MonoBehaviour
+public class PlacementController : MonoBehaviour
 {
-
     public GameObject GameobjectToCreate;
     public GameObject HUD;
 
-    public bool MoveMode = false;
+    public bool MoveMode = false; 
     public bool RotateMode = true;
     public bool PinchMode = false;
     public bool LockMode = false;
@@ -48,8 +48,6 @@ public class PlacementControlller : MonoBehaviour
     public void SetLockMode(bool mode)
     {
         LockMode = mode;
-
-
     }
 
     public GameObject Placedprefab

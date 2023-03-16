@@ -7,9 +7,13 @@ public class BtnSizeManager : MonoBehaviour
 {
     public GameObject _parentObject;
 
+    private void Start()
+    {
+        
+    }
+
     public void OnMouseClick()
     {
-      
         string name = gameObject.name;
 
         for (int i = 0; i < _parentObject.transform.childCount; i++)

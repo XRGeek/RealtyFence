@@ -1627,8 +1627,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: placementcontrolller, Assembly-CSharp
+      - m_Target: {fileID: 1335839540}
+        m_TargetAssemblyTypeName: PlacementController, Assembly-CSharp
         m_MethodName: Setmovemode
         m_Mode: 0
         m_Arguments:
@@ -5178,7 +5178,6 @@ RectTransform:
   - {fileID: 1459624576}
   - {fileID: 4971000650822837275}
   - {fileID: 1921773772}
-  - {fileID: 647874840}
   - {fileID: 812572783}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -5293,13 +5292,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 622091743}
-  m_RootOrder: 7
+  m_Father: {fileID: 812572783}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 256.62}
-  m_SizeDelta: {x: 0, y: 513.2487}
+  m_AnchoredPosition: {x: 610.51483, y: 226.62}
+  m_SizeDelta: {x: 1217.7924, y: 513.2487}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &647874841
 MonoBehaviour:
@@ -6428,7 +6427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &812572783
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6440,9 +6439,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 647874840}
   - {fileID: 1400418141}
   m_Father: {fileID: 622091743}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -8712,8 +8712,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: placementcontrolller, Assembly-CSharp
+      - m_Target: {fileID: 1335839540}
+        m_TargetAssemblyTypeName: PlacementController, Assembly-CSharp
         m_MethodName: SetRotatemode
         m_Mode: 0
         m_Arguments:
@@ -10730,6 +10730,7 @@ GameObject:
   - component: {fileID: 1335839536}
   - component: {fileID: 1335839538}
   - component: {fileID: 1335839539}
+  - component: {fileID: 1335839540}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -10819,6 +10820,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b1f78f83a5cc4f44aea34563151f260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameobjectToCreate: {fileID: 0}
+  HUD: {fileID: 5545197515644099228}
+  MoveMode: 0
+  RotateMode: 1
+  PinchMode: 0
+  LockMode: 0
+  T_MoveMode: {fileID: 105422964}
+  T_RotateMode: {fileID: 1128621371}
+  T_PinchMode: {fileID: 4971000650723772912}
+  T_LockMode: {fileID: 4971000652038376085}
+  ToggleBtn: {fileID: 1456429700}
+  ScrollViewHorizontal: {fileID: 812572782}
+  arRaycastManager: {fileID: 0}
+  instantiated: 0
+--- !u!114 &1335839540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335839533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c4fa45af343d4ef6ba4fa1b3bce198a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   GameobjectToCreate: {fileID: 0}
@@ -11163,7 +11190,7 @@ RectTransform:
   m_Children:
   - {fileID: 440651769}
   m_Father: {fileID: 812572783}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -18277,8 +18304,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: placementcontrolller, Assembly-CSharp
+      - m_Target: {fileID: 1335839540}
+        m_TargetAssemblyTypeName: PlacementController, Assembly-CSharp
         m_MethodName: SetPinchmode
         m_Mode: 0
         m_Arguments:
@@ -21811,10 +21838,10 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: placementcontrolller, Assembly-CSharp
+      - m_Target: {fileID: 1335839540}
+        m_TargetAssemblyTypeName: PlacementController, Assembly-CSharp
         m_MethodName: SetLockMode
-        m_Mode: 6
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
