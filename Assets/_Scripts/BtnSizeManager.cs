@@ -2,28 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DanielLochner.Assets.SimpleScrollSnap;
 
 public class BtnSizeManager : MonoBehaviour
 {
     public GameObject _parentObject;
-    public  ScrollRect ScrollView;
-
     string check;
+    public SimpleScrollSnap SimpleScrollSnap;
+
     private void Start()
     {
-        ScrollView.horizontalNormalizedPosition = 100f;
-
-
         check = PlayerPrefs.GetString("ObjectName", "");
         if (gameObject.name == check)
         {
             gameObject.transform.GetChild(3).gameObject.SetActive(true);
-            Debug.Log("here");
+
+            int index = transform.GetSiblingIndex();
+            SimpleScrollSnap.instance.startingPanel = index;
+
+            Debug.Log(index);
         }
         else
         {
             gameObject.transform.GetChild(3).gameObject.SetActive(false);
-            Debug.Log("there");
+        
         }
 
 

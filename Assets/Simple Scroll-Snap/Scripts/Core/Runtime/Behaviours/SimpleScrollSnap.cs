@@ -13,6 +13,20 @@ namespace DanielLochner.Assets.SimpleScrollSnap
     [RequireComponent(typeof(ScrollRect))]
     public class SimpleScrollSnap : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler, IPointerDownHandler, IPointerUpHandler
     {
+
+        public static SimpleScrollSnap instance;
+        private void Awake()
+        {
+            if (instance == null)
+            {
+                instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else if (instance != null)
+            {
+                Destroy(gameObject);
+            }
+        }
         #region Fields
         // Movement and Layout Settings
         [SerializeField] private MovementType movementType = MovementType.Fixed;
@@ -25,7 +39,7 @@ namespace DanielLochner.Assets.SimpleScrollSnap
         [SerializeField] private bool useInfiniteScrolling = false;
         [SerializeField] private float infiniteScrollingSpacing = 0.25f;
         [SerializeField] private bool useOcclusionCulling = false;
-        [SerializeField] private int startingPanel = 0;
+        [SerializeField] public int startingPanel = 0;
 
         // Navigation Settings
         [SerializeField] private bool useSwipeGestures = true;

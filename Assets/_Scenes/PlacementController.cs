@@ -6,12 +6,25 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using Lean.Touch;
+using UnityEngine.XR.ARSubsystems;
 
 [RequireComponent(typeof(ARRaycastManager))]
 
 
 public class PlacementController : MonoBehaviour
 {
+    [SerializeField]
+    private ARRaycastManager raycastManager;
+
+    [SerializeField]
+    private GameObject moveCameraUI;
+
+    [SerializeField]
+    private GameObject tapToPlaceUI;
+
+    [SerializeField]
+    private GameObject featherObject;
+
     public GameObject GameobjectToCreate;
     public GameObject HUD;
 
@@ -19,7 +32,11 @@ public class PlacementController : MonoBehaviour
     public bool RotateMode = false;
     public bool PinchMode = false;
     public bool LockMode = true;
-   
+
+
+    //public GameObject tap_to_place;
+    //public GameObject Move_Ipad;
+
 
     public Toggle T_MoveMode;
     public Toggle T_RotateMode;
@@ -64,7 +81,6 @@ public class PlacementController : MonoBehaviour
     }
 
     ARRaycastManager arRaycastManager;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -136,19 +152,25 @@ public class PlacementController : MonoBehaviour
         }
 
 #endif
-
+        UpdatePlacementIndicator();
         if (!TryGetTouchPosition(out Vector2 touchposition))
             return;
 
         //enable and disable rotate mode based on Toggle value      
         if (instantiated)
-            Placedprefab.GetComponent<LeanTwistRotateAxis>().enabled = RotateMode;
+         Placedprefab.GetComponent<LeanTwistRotateAxis>().enabled = RotateMode;
         Placedprefab.GetComponent<LeanPinchScale>().enabled = PinchMode;
         Placedprefab.GetComponent<PlacementObject>().Locked = LockMode;
 
-
-
-
+        //if (!instantiated)
+        //{
+         
+        //}
+        //else
+        //{
+            
+        //}
+   
         if (arRaycastManager.Raycast(touchposition, hits, UnityEngine.XR.ARSubsystems.TrackableType.PlaneWithinPolygon))
         {
             var hitpose = hits[0].pose;
@@ -164,6 +186,7 @@ public class PlacementController : MonoBehaviour
                 foreach (ARPlane plane in gameObject.GetComponent<ARPlaneManager>().trackables)
                 {
                     plane.gameObject.SetActive(false);
+                    
                 }
                 foreach (ARPointCloud point in gameObject.GetComponent<ARPointCloudManager>().trackables)
                 {
@@ -176,6 +199,30 @@ public class PlacementController : MonoBehaviour
                 Debug.Log("hit to replace");
             }
 
+        }
+    }
+
+    void UpdatePlacementIndicator()
+    {
+        Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+
+        var hits = new List<ARRaycastHit>();
+        moveCameraUI.SetActive(true);
+        tapToPlaceUI.SetActive(false);
+        Debug.Log("move ipad  check");
+        if (raycastManager.Raycast(ray, hits, TrackableType.PlaneWithinPolygon))
+        {
+            if (featherObject.activeInHierarchy)
+            {
+                Debug.Log("tap to place");
+            }
+            else
+            {
+                moveCameraUI.SetActive(false);
+                tapToPlaceUI.SetActive(true);
+              
+                Debug.Log("move ipad");
+            }
         }
     }
     bool instantiated = false;
