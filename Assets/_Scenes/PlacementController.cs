@@ -16,9 +16,10 @@ public class PlacementController : MonoBehaviour
     public GameObject HUD;
 
     public bool MoveMode = false; 
-    public bool RotateMode = true;
+    public bool RotateMode = false;
     public bool PinchMode = false;
-    public bool LockMode = false;
+    public bool LockMode = true;
+   
 
     public Toggle T_MoveMode;
     public Toggle T_RotateMode;

@@ -6,9 +6,14 @@ using UnityEngine.UI;
 public class BtnSizeManager : MonoBehaviour
 {
     public GameObject _parentObject;
+    public  ScrollRect ScrollView;
+
     string check;
     private void Start()
     {
+        ScrollView.horizontalNormalizedPosition = 100f;
+
+
         check = PlayerPrefs.GetString("ObjectName", "");
         if (gameObject.name == check)
         {
@@ -41,7 +46,6 @@ public class BtnSizeManager : MonoBehaviour
             else
             {
                 childObj.transform.GetChild(3).gameObject.SetActive(false);
-                //childObj.GetComponent<Image>().sprite = smallerimg;
             }
         }
     }
