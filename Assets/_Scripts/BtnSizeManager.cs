@@ -17,18 +17,17 @@ public class BtnSizeManager : MonoBehaviour
         {
             gameObject.transform.GetChild(3).gameObject.SetActive(true);
 
-            int index = transform.GetSiblingIndex();
-            SimpleScrollSnap.instance.startingPanel = index;
+            //int index = transform.GetSiblingIndex();
 
-            Debug.Log(index);
+            //SimpleScrollSnap.instance.startingPanel = index;
+
+            //Debug.Log(index);
         }
         else
         {
             gameObject.transform.GetChild(3).gameObject.SetActive(false);
         
         }
-
-
 
     }
 

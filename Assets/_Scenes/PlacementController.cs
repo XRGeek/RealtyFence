@@ -149,6 +149,8 @@ public class PlacementController : MonoBehaviour
         {
             Placedprefab = Instantiate(Placedprefab);
             instantiated = true;
+            ScrollViewHorizontal.SetActive(true);
+            ToggleBtn.SetActive(true);
         }
 
 #endif

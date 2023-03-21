@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &83055014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1708,7 +1708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1870,7 +1870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &150422366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3648,7 +3648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &288556984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4321,7 +4321,7 @@ RectTransform:
   - {fileID: 1808451264}
   - {fileID: 1928421702}
   m_Father: {fileID: 440651769}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4341,7 +4341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &371151384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5062,9 +5062,9 @@ RectTransform:
   - {fileID: 1859178213}
   - {fileID: 520390243}
   - {fileID: 288556982}
-  - {fileID: 996303078}
   - {fileID: 371151382}
   - {fileID: 2001721653}
+  - {fileID: 996303078}
   - {fileID: 1552264329}
   - {fileID: 83055012}
   - {fileID: 979964731}
@@ -5353,7 +5353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5779,7 +5779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &520390245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7459,7 +7459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &690721720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8435,7 +8435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &801151427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9536,7 +9536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &979964733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9693,7 +9693,7 @@ RectTransform:
   - {fileID: 782138639}
   - {fileID: 693097124}
   m_Father: {fileID: 440651769}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -9713,7 +9713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &996303080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10380,7 +10380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &1063609023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14275,8 +14275,6 @@ MonoBehaviour:
   RotateMode: 0
   PinchMode: 0
   LockMode: 1
-  tap_to_place: {fileID: 0}
-  Move_Ipad: {fileID: 0}
   T_MoveMode: {fileID: 105422964}
   T_RotateMode: {fileID: 1128621371}
   T_PinchMode: {fileID: 4971000650723772912}
@@ -16056,7 +16054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &1494658260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16318,7 +16316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &1510210998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16661,7 +16659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &1552264331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19120,7 +19118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &1859178215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20202,7 +20200,7 @@ RectTransform:
   - {fileID: 1282516744}
   - {fileID: 1743614638}
   m_Father: {fileID: 440651769}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -20222,7 +20220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _parentObject: {fileID: 440651768}
-  ScrollView: {fileID: 812572786}
+  SimpleScrollSnap: {fileID: 812572785}
 --- !u!114 &2001721655
 MonoBehaviour:
   m_ObjectHideFlags: 0
