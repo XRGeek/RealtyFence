@@ -7,7 +7,7 @@ public class reorientatMainCamera : MonoBehaviour
     GameObject ManCam;
     private void Start()
     {
-        ManCam = GameObject.FindGameObjectWithTag("MainCamera");
+        ManCam = Camera.main.gameObject;
         ReorientAtMainCam();
      }
     public void ReorientAtMainCam()
