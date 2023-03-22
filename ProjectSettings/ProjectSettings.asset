@@ -163,7 +163,7 @@ PlayerSettings:
     iPhone: com.cmd.RealtyFence
   buildNumber:
     Standalone: 0
-    iPhone: 2
+    iPhone: 3
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 3
