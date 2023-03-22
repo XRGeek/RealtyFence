@@ -6,6 +6,7 @@ using DanielLochner.Assets.SimpleScrollSnap;
 
 public class BtnSizeManager : MonoBehaviour
 {
+   
     public GameObject _parentObject;
     string check;
     public SimpleScrollSnap SimpleScrollSnap;
@@ -17,7 +18,7 @@ public class BtnSizeManager : MonoBehaviour
         {
             gameObject.transform.GetChild(3).gameObject.SetActive(true);
 
-            //int index = transform.GetSiblingIndex();
+           // int index = transform.GetSiblingIndex();
 
             //SimpleScrollSnap.instance.startingPanel = index;
 
