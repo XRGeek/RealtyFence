@@ -11415,7 +11415,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 0
+  m_IsOn: 1
 --- !u!1 &1131148967
 GameObject:
   m_ObjectHideFlags: 0
@@ -14273,9 +14273,9 @@ MonoBehaviour:
   GameobjectToCreate: {fileID: 0}
   HUD: {fileID: 1341677550}
   MoveMode: 0
-  RotateMode: 0
+  RotateMode: 1
   PinchMode: 0
-  LockMode: 1
+  LockMode: 0
   T_MoveMode: {fileID: 105422964}
   T_RotateMode: {fileID: 1128621371}
   T_PinchMode: {fileID: 4971000650723772912}
@@ -26692,7 +26692,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &4971000652038376087
 GameObject:
   m_ObjectHideFlags: 0
