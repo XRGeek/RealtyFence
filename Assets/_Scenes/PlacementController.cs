@@ -46,7 +46,7 @@ public class PlacementController : MonoBehaviour
     public GameObject ToggleBtn;
     public GameObject ScrollViewHorizontal;
     public GameObject BackBtn;
-
+    public GameObject logo;
     public void Setmovemode(bool mode)
     {
         MoveMode = mode;
@@ -85,6 +85,8 @@ public class PlacementController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        BackBtn.SetActive(true);
+        logo.SetActive(false);
         arRaycastManager = gameObject.GetComponent<ARRaycastManager>();
         name = PlayerPrefs.GetString("ObjectName", "");
         {
@@ -92,6 +94,7 @@ public class PlacementController : MonoBehaviour
         }
 
         PlaceObject();
+
     }
 
     public void PlaceObject()
@@ -151,7 +154,8 @@ public class PlacementController : MonoBehaviour
             Placedprefab = Instantiate(Placedprefab);
             instantiated = true;
             ScrollViewHorizontal.SetActive(true);
-            BackBtn.SetActive(true);
+            BackBtn.SetActive(false);
+            logo.SetActive(true);
             ToggleBtn.SetActive(true);
         }
 
@@ -183,7 +187,8 @@ public class PlacementController : MonoBehaviour
                 Placedprefab = Instantiate(Placedprefab, hitpose.position, hitpose.rotation);
                 ScrollViewHorizontal.SetActive(true);
                 ToggleBtn.SetActive(true);
-                BackBtn.SetActive(true);
+                BackBtn.SetActive(false);
+                logo.SetActive(true);
                 instantiated = true;
                 HUD.SetActive(false);
                 gameObject.GetComponent<ARPlaneManager>().enabled = false;
