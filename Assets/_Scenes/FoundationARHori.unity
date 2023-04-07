@@ -2721,12 +2721,12 @@ GameObject:
   - component: {fileID: 250522368}
   - component: {fileID: 250522371}
   m_Layer: 5
-  m_Name: Logo
+  m_Name: Backbtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &250522367
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2789,7 +2789,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 250522369}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 889010795}
+        m_TargetAssemblyTypeName: SceneManagment, Assembly-CSharp
+        m_MethodName: SceneChange
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MainMenu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &250522369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2810,7 +2822,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7caa3356118944458803d7bc8dc480c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1acaa957ad1924ad587392356f70b65a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -14282,6 +14294,7 @@ MonoBehaviour:
   T_LockMode: {fileID: 4971000652038376085}
   ToggleBtn: {fileID: 1456429700}
   ScrollViewHorizontal: {fileID: 812572782}
+  BackBtn: {fileID: 250522366}
 --- !u!1 &1341095426
 GameObject:
   m_ObjectHideFlags: 0

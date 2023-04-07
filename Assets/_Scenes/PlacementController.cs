@@ -45,6 +45,7 @@ public class PlacementController : MonoBehaviour
 
     public GameObject ToggleBtn;
     public GameObject ScrollViewHorizontal;
+    public GameObject BackBtn;
 
     public void Setmovemode(bool mode)
     {
@@ -150,6 +151,7 @@ public class PlacementController : MonoBehaviour
             Placedprefab = Instantiate(Placedprefab);
             instantiated = true;
             ScrollViewHorizontal.SetActive(true);
+            BackBtn.SetActive(true);
             ToggleBtn.SetActive(true);
         }
 
@@ -181,6 +183,7 @@ public class PlacementController : MonoBehaviour
                 Placedprefab = Instantiate(Placedprefab, hitpose.position, hitpose.rotation);
                 ScrollViewHorizontal.SetActive(true);
                 ToggleBtn.SetActive(true);
+                BackBtn.SetActive(true);
                 instantiated = true;
                 HUD.SetActive(false);
                 gameObject.GetComponent<ARPlaneManager>().enabled = false;
