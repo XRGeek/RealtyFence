@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <buildInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <dateUTC>638164573939022610</dateUTC>
+  <dateUTC>638169635564048730</dateUTC>
   <compressedSize>0</compressedSize>
-  <totalSize>346839062</totalSize>
-  <streamingAssetsSize>1359</streamingAssetsSize>
-  <runtimeSize>3070413</runtimeSize>
+  <totalSize>346839022</totalSize>
+  <streamingAssetsSize>1361</streamingAssetsSize>
+  <runtimeSize>3070411</runtimeSize>
   <compressedRuntimeSize>0</compressedRuntimeSize>
   <buildTarget>iOS</buildTarget>
   <projectPath>/Users/mac/Desktop/UnityProjects/RealtyFence</projectPath>
   <outputPath>/Users/mac/Desktop/Builds/Xcode/RealityFence</outputPath>
   <unityVersion>2020.3.11f1</unityVersion>
-  <buildTime>795.282</buildTime>
-  <overheadTime>1.754</overheadTime>
+  <buildTime>67.095</buildTime>
+  <overheadTime>2.007</overheadTime>
   <buildSettings>
     <setting name="accelerometerFrequency" value="60" />
     <setting name="actionOnDotNetUnhandledException" value="Crash" />
@@ -46,7 +46,7 @@
     <setting name="backgroundModes" value="None" />
     <setting name="bakeCollisionMeshes" value="False" />
     <setting name="buildAppBundle" value="False" />
-    <setting name="buildNumber" value="4" />
+    <setting name="buildNumber" value="5" />
     <setting name="buildScriptsOnly" value="False" />
     <setting name="buildWithDeepProfilingSupport" value="False" />
     <setting name="bundleIdentifier" value="com.cmd.RealtyFence" />
@@ -232,14 +232,14 @@
     <environmentVariable name="__CFBundleIdentifier" value="com.unity3d.unityhub" />
     <environmentVariable name="COMMAND_MODE" value="unix2003" />
     <environmentVariable name="HOME" value="/Users/mac" />
-    <environmentVariable name="LaunchInstanceID" value="FAE20AB5-2ED2-49A7-BA98-AC261520837D" />
+    <environmentVariable name="LaunchInstanceID" value="F03D2138-CEDE-4479-AB94-C9946329AAD2" />
     <environmentVariable name="LOGNAME" value="mac" />
     <environmentVariable name="MallocNanoZone" value="0" />
     <environmentVariable name="ORIGINAL_XDG_CURRENT_DESKTOP" value="undefined" />
     <environmentVariable name="PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
-    <environmentVariable name="SECURITYSESSIONID" value="186a4" />
+    <environmentVariable name="SECURITYSESSIONID" value="186a3" />
     <environmentVariable name="SHELL" value="/bin/bash" />
-    <environmentVariable name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.gKypfMiHon/Listeners" />
+    <environmentVariable name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.Xog5EAk0JY/Listeners" />
     <environmentVariable name="TMPDIR" value="/var/folders/q5/4p7qc1bj1q59725nngb02p4w0000gn/T/" />
     <environmentVariable name="USER" value="mac" />
     <environmentVariable name="XPC_FLAGS" value="0x0" />
